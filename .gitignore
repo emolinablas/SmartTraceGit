@@ -1,6 +1,6 @@
 SmartTrace/eclipse/*
-/tmp/*
+SmartTrace/tmp/*
 .classpath
 .project
 .settings
-/modules/*
+SmartTrace/modules/*
