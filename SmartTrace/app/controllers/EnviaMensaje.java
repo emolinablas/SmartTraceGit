@@ -50,9 +50,9 @@ public class EnviaMensaje extends Controller {
 
 					// use this line to send message with payload data
 					Message message = new Message.Builder()
-							.collapseKey("1")
-							.timeToLive(3)
-							.delayWhileIdle(true)
+							//.collapseKey("1")
+							//.timeToLive(3)
+							//.delayWhileIdle(true)
 							.addData("message",
 									mensaje)
 							.addData("usuario", usuario)
