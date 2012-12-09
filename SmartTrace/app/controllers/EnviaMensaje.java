@@ -10,13 +10,16 @@ import com.google.android.gcm.server.Sender;
 
 
 
+import play.data.validation.Required;
 import play.mvc.Controller;
 
 public class EnviaMensaje extends Controller {
 	
-	public static void envio(String usuario, String mensaje){
+	public static void envio(@Required long id, String mensaje){
 		
 		Map<String, Object> resulta = new HashMap<String, Object>();
+		
+		
 		
 		try {
 
