@@ -88,6 +88,9 @@ public class EnviaMensaje extends Controller {
 				} 
 				catch (Exception e) {
 					e.printStackTrace();
+					
+					resulta.put("resultado", false);
+					resulta.put("mensaje", "ERROR");
 				}
 				
 			}
