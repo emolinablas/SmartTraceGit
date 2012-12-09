@@ -1,6 +1,6 @@
 SmartTrace/eclipse/*
+SmartTrace/tmp/bytecode/DEV/controllers.EnviaMensaje
 SmartTrace/tmp/*
 .classpath
 .project
 .settings
-SmartTrace/modules/*
