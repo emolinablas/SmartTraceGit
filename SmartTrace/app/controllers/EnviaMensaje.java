@@ -27,8 +27,8 @@ public class EnviaMensaje extends Controller {
 			resulta.put("resultado", false);
 			resulta.put("mensaje", "Parametros Incompletos");
 		}else{
-			User user = User.find("byUsuario", usuario).first();
-			if(user==null){
+			//User user = User.find("byUsuario", usuario).first();
+			//if(user==null){
 				
 				try {
 
@@ -93,11 +93,11 @@ public class EnviaMensaje extends Controller {
 					resulta.put("mensaje", "ERROR");
 				}
 				
-			}
+			//}else{
+				//resulta.put("resultado", false);
+				//resulta.put("mensaje", "usted no esta registrado para enviar mensajes");
+			//}
 		}
-		
-		
-		
 		
 		renderJSON(resulta);
 	}
