@@ -66,7 +66,7 @@ public class EnviaMensaje extends Controller {
 
 					// Use this for multicast messages
 					MulticastResult result = sender.send(message, devicesList, 1);
-					sender.send(message, devicesList, 1);
+					//sender.send(message, devicesList, 1);
 
 					System.out.println(result.toString());
 					if (result.getResults() != null) {
