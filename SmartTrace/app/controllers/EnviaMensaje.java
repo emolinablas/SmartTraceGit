@@ -43,6 +43,9 @@ public class EnviaMensaje extends Controller {
 						devicesList.add(usuarios.get(i).regN);
 					}
 					
+					//devicesList.add("APA91bFLeyNSRI7VC7c0BPMFleQTBhzhjKJhYvg2S6APmZuONyI6RlUVzrKUX5-Wi1I_Rbhjv-01f8tTV52sbZHzkRcGv1Juy0omSBZTq5RHjiKy9_Ozfpj0mTMS3K_T_CAyEPbLFGnpsTlYmEUSneB5B7u4HSBdmA");
+					devicesList.add("APA91bHZ1l1ly1ocje-5_zc0l7npzeONA7U_XygvnKE3Rw8otEJeGsPoccDONT7ltzFM5OYt6RquQlYaPoNp2-5KJuiGoimTBDctrcLIUdW9fmXyVd_O4ij3WvATxDfnQctYN73B_VyMmQ6v_s3cE-5m-nXY4jJCwA");
+					
 					//devicesList.add("APA91bH1cc67ghqwUcXyJieu1DLZ3AJ5L_dkNztzlT61I1KucnJiabzKEiOtE72NJAxK6cdSdAMUUmSMP8nhhn73usxITJZ-H49y_HO4ri67YlZqcwXYqW1-2LyQDl0rwfzF_eepwx7we8h9N8QgLfioDqH6R1xlaw");
 
 					// Use this line to send message without payload data

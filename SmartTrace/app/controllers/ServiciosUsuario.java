@@ -31,7 +31,7 @@ public class ServiciosUsuario extends Controller {
 		renderJSON(result);
 	}
 	
-	public static void registroUsuario(@Required long id, String regId){
+	public static void registroUsuario(@Required String usuario, @Required String regId){
 		
 Map<String, Object> result = new HashMap<String, Object>();
 		
@@ -40,7 +40,8 @@ Map<String, Object> result = new HashMap<String, Object>();
 			result.put("mensaje", "Parametros Incompletos");
 		}else{
 			
-			User user = User.findById(id);
+			//User user = User.findById(id);
+			User user = User.find("byUsuario", usuario).first();
 			if (user!=null){	
 				   user.regN = regId;
 				   
